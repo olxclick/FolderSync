@@ -11,7 +11,6 @@ This project implements a folder synchronization tool using **C#**. The purpose 
 - **Configurable via command-line arguments**: Allows customization of folder paths, synchronization interval, and log file path via the command-line.
 - **Periodic Synchronization**: Automatically performs synchronization at regular intervals specified by the user.
 - **Console and file logging**: Logs synchronization actions both to the console and to a file for easy auditing.
-- **Cross-platform support**: Runs on multiple platforms (Windows, Linux, macOS) using .NET Core.
 
 ## Usage
 
