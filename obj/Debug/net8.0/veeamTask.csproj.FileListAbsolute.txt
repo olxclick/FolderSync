@@ -1,0 +1,14 @@
+c:\Users\joaol\source\repos\veeamTask\veeamTask\bin\Debug\net8.0\veeamTask.exe
+c:\Users\joaol\source\repos\veeamTask\veeamTask\bin\Debug\net8.0\veeamTask.deps.json
+c:\Users\joaol\source\repos\veeamTask\veeamTask\bin\Debug\net8.0\veeamTask.runtimeconfig.json
+c:\Users\joaol\source\repos\veeamTask\veeamTask\bin\Debug\net8.0\veeamTask.dll
+c:\Users\joaol\source\repos\veeamTask\veeamTask\bin\Debug\net8.0\veeamTask.pdb
+c:\Users\joaol\source\repos\veeamTask\veeamTask\obj\Debug\net8.0\veeamTask.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\joaol\source\repos\veeamTask\veeamTask\obj\Debug\net8.0\veeamTask.AssemblyInfoInputs.cache
+c:\Users\joaol\source\repos\veeamTask\veeamTask\obj\Debug\net8.0\veeamTask.AssemblyInfo.cs
+c:\Users\joaol\source\repos\veeamTask\veeamTask\obj\Debug\net8.0\veeamTask.csproj.CoreCompileInputs.cache
+c:\Users\joaol\source\repos\veeamTask\veeamTask\obj\Debug\net8.0\veeamTask.dll
+c:\Users\joaol\source\repos\veeamTask\veeamTask\obj\Debug\net8.0\refint\veeamTask.dll
+c:\Users\joaol\source\repos\veeamTask\veeamTask\obj\Debug\net8.0\veeamTask.pdb
+c:\Users\joaol\source\repos\veeamTask\veeamTask\obj\Debug\net8.0\veeamTask.genruntimeconfig.cache
+c:\Users\joaol\source\repos\veeamTask\veeamTask\obj\Debug\net8.0\ref\veeamTask.dll

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "veeamTask": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Users\\joaol\\Desktop\\Stuff\\games\" \"C:\\Users\\joaol\\Desktop\\Stuff\\new\" 3 \"C:\\Users\\joaol\\Desktop\\Stuff\\logs.txt\""
+    }
+  }
+}
