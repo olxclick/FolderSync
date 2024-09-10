@@ -26,4 +26,4 @@ The program takes the following command-line arguments:
 ### Example
 
 ```bash
-dotnet run /path/to/source /path/to/replica 'interval in seconds' /path/to/logfile.log
+dotnet run "/path/to/source" "/path/to/replica" interval in seconds "/path/to/logfile.log"
