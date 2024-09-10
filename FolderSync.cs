@@ -6,10 +6,9 @@ using System.Security.Cryptography;
 
 class FolderSync
 {
-    private static StreamWriter logWriter;
+    private static StreamWriter? logWriter;
 
 	//retrive and proccess arguments ++ initializing logging ++ calling the method to sync the folders
-	//"C:\Users\joaol\Desktop\Stuff\" 
 	static void Main(string[] args)
 	{
 		if (args.Length == 4)
@@ -64,12 +63,20 @@ class FolderSync
 			{
 				string relativePath = Path.GetRelativePath(source, sourceFilePath);
 				string replicaFilePath = Path.Combine(replica, relativePath);
+				string? dir = Path.GetDirectoryName(replicaFilePath);
 
 				if (!File.Exists(replicaFilePath) || !FilesAreEqual(sourceFilePath, replicaFilePath))
 				{
-					Directory.CreateDirectory(Path.GetDirectoryName(replicaFilePath));
-					File.Copy(sourceFilePath, replicaFilePath, true);
-					Log($"Copied file: {sourceFilePath} to {replicaFilePath}");
+					if (dir != null)
+					{
+						Directory.CreateDirectory(dir);
+						File.Copy(sourceFilePath, replicaFilePath, true);
+						Log($"Copied file: {sourceFilePath} to {replicaFilePath}");
+					}
+					else
+					{
+						Log($"Failed to create directory for file path: {replicaFilePath}");
+					}
 				}
 			}
 
@@ -109,11 +116,11 @@ class FolderSync
     public static int ValidateNumber()
 	{
 		int result;
-		string input;
+		string? input;
 
 		while (true)
 		{
-			Console.WriteLine("Please provide a valid number: ");
+			Console.WriteLine("Please provide a valid interval number: ");
 			input = Console.ReadLine();
 
 			if (int.TryParse(input, out result))
@@ -122,7 +129,7 @@ class FolderSync
 			}
 			else
 			{
-				Console.WriteLine("Input is not a valid number.");
+				Console.WriteLine("Input is not a valid number, try again");
 			}
 		}
 	}
@@ -132,7 +139,8 @@ class FolderSync
 	{
 		string logMessage = $"{DateTime.Now} - {message}";
 		Console.WriteLine(logMessage);
-		logWriter.WriteLine(logMessage);
+
+		logWriter?.WriteLine(logMessage);
 	}
 
 	//use of md5 to check files

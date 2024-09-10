@@ -8,24 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\joaol\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\jpedrola\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joaol\\source\\repos\\veeamTask\\veeamTask\\FolderSync.csproj",
+      "projectUniqueName": "C:\\Users\\jpedrola\\OneDrive - NTT DATA EMEAL\\Desktop\\veeamTask\\FolderSync\\FolderSync.csproj",
       "projectName": "FolderSync",
-      "projectPath": "C:\\Users\\joaol\\source\\repos\\veeamTask\\veeamTask\\FolderSync.csproj",
-      "packagesPath": "C:\\Users\\joaol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joaol\\source\\repos\\veeamTask\\veeamTask\\obj\\",
+      "projectPath": "C:\\Users\\jpedrola\\OneDrive - NTT DATA EMEAL\\Desktop\\veeamTask\\FolderSync\\FolderSync.csproj",
+      "packagesPath": "C:\\Users\\jpedrola\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jpedrola\\OneDrive - NTT DATA EMEAL\\Desktop\\veeamTask\\FolderSync\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\joaol\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\jpedrola\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -72,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
